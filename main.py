@@ -1,7 +1,7 @@
 from application.salary import calculate_salary
 from application.db.people import get_employees
-from current_date import show_date_of_this_moment
-from test_numpy import del_error_rate
+from work_with_num.current_date import show_date_of_this_moment
+from work_with_num.test_numpy import del_error_rate
 
 if __name__ == '__main__':
     print(calculate_salary())
